@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://boo86seen406o"]
+
+[ext_resource type="Script" path="res://Character/Character.gd" id="1_lwqo3"]
+[ext_resource type="Texture2D" uid="uid://d1xccrjldcxx7" path="res://Sprites/Chris Idle.png" id="2_hkloq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e4rqi"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 3
+motion_mode = 1
+wall_min_slide_angle = 0.0
+script = ExtResource("1_lwqo3")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+navigation_layers = 3
+debug_enabled = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_hkloq")
+hframes = 6
+vframes = 4
+frame = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+scale = Vector2(0.298181, 0.123148)
+shape = SubResource("RectangleShape2D_e4rqi")

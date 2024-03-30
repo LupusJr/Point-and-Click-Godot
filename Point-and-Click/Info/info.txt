@@ -3,3 +3,4 @@ Sprites: www.youtube.com/watch?v=tQSL2scuqeU&t
 CharacterSetup: https://www.youtube.com/watch?v=Vwj_hX9h4zo
 Pathfinding: https://www.youtube.com/watch?v=Lt9YdQ6Ztm4
 Y-Sorting & Tilemaps: https://www.youtube.com/watch?v=UdmD_2EcEgU&list=PLMQtM2GgbPEVuTgD4Ln17ombTg6EahSLr&index=7
+Inventory: https://www.youtube.com/watch?v=X3J0fSodKgs ; https://www.youtube.com/watch?v=fyRcR6C5H2g

@@ -6,6 +6,8 @@ const speed = 30
 var clickPosition = Vector2()
 var dir
 
+@export var inv: Inv
+
 
 func _physics_process(_delta):
 	
@@ -22,3 +24,6 @@ func _physics_process(_delta):
 		
 func buildpath():
 	nav_agent_2d.target_position = clickPosition
+
+func collect(item): 
+	inv.insert(item)

@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://ct01sahl2mfkd"]
+[gd_scene load_steps=6 format=3 uid="uid://bgsky6jc7fsln"]
 
-[ext_resource type="Script" path="res://Scenes/Items/Apple/Apple.gd" id="1_qq613"]
-[ext_resource type="Texture2D" uid="uid://4f04egt62nq0" path="res://Scenes/Items/Apple/apple.png" id="2_cabey"]
-[ext_resource type="Resource" uid="uid://dq3e88fgelfnq" path="res://Inventory/items/apple.tres" id="2_vrrgg"]
+[ext_resource type="Texture2D" uid="uid://c73con2s1825b" path="res://Sprites/STICK1.png" id="1_6mrpb"]
+[ext_resource type="Script" path="res://Scenes/Items/STICK/STICK.gd" id="1_iwm2j"]
+[ext_resource type="Resource" uid="uid://cgj4e22pymife" path="res://Inventory/items/STICK.tres" id="2_855cg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oyoxh"]
 size = Vector2(32, 32)
@@ -19,14 +19,14 @@ cache/0/16/0/scale = 1.0
 cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
 [node name="Area2D" type="Area2D"]
-script = ExtResource("1_qq613")
-item = ExtResource("2_vrrgg")
+script = ExtResource("1_iwm2j")
+item = ExtResource("2_855cg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_oyoxh")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_cabey")
+texture = ExtResource("1_6mrpb")
 
 [node name="Label" type="Label" parent="."]
 offset_left = -16.0
@@ -34,7 +34,8 @@ offset_top = -32.0
 offset_right = 25.0
 offset_bottom = -9.0
 theme_override_fonts/font = SubResource("FontFile_3mhsl")
-text = "Apfel"
+text = "STICK
+"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]

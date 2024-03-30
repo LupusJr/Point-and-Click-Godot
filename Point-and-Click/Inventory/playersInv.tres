@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Inv" load_steps=15 format=3 uid="uid://dectny2kxb5hc"]
 
-[ext_resource type="Script" path="res://Sprites/Inv_slot.gd" id="2_25kru"]
+[ext_resource type="Script" path="res://Inventory/Inv_slot.gd" id="2_25kru"]
 [ext_resource type="Script" path="res://Inventory/inventory.gd" id="2_x674o"]
 
 [sub_resource type="Resource" id="Resource_dn0e2"]

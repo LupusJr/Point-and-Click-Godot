@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://bgsky6jc7fsln"]
 
-[ext_resource type="Texture2D" uid="uid://c73con2s1825b" path="res://Sprites/STICK1.png" id="1_6mrpb"]
+[ext_resource type="Texture2D" uid="uid://c73con2s1825b" path="res://Scenes/Items/STICK/STICK1.png" id="1_6mrpb"]
 [ext_resource type="Script" path="res://Scenes/Items/STICK/STICK.gd" id="1_iwm2j"]
 [ext_resource type="Resource" uid="uid://cgj4e22pymife" path="res://Inventory/items/STICK.tres" id="2_855cg"]
 
